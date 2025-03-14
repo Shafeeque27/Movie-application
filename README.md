@@ -1,12 +1,23 @@
-# React + Vite
+Movie Explorer - Discover and Search Movies Instantly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Explorer is a React-based web application that allows users to explore trending movies and search for their favorite films. Built using Vite, TailwindCSS, Appwrite, and TMDB API, this app provides a seamless and efficient movie discovery experience.
 
-Currently, two official plugins are available:
+ Features :-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+. Trending Movies – Displays the latest trending movies.
 
-## Expanding the ESLint configuration
+. Search Functionality – Search movies with a debounced search to prevent unnecessary API calls.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+. Optimized Performance – Uses Vite for fast development and deployment.
+
+. Responsive UI – Built with Tailwind CSS for a modern and mobile-friendly interface.
+
+. Search Analytics – Tracks search trends using Appwrite.
+
+Tech Stack :-
+
+Frontend: React, Vite, TailwindCSS
+
+Backend: Appwrite (for search analytics)
+
+API: TMDB (The Movie Database)
